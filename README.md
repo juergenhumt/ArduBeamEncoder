@@ -1,1 +1,3 @@
-# ArduBeamEncoder
+The project uses an arduino and a beam speed sensor to measure rotational speed. A python program is included to receive the data sent from the arduino on a PC. This is, in my opinion, a nice littel project to get familar with the basics of arduino programming. It features variable declaration, setting up the program, the main loop, an interrupt and serial communication with a PC. It also includes data smoothing via a Kalman filter, so you have all elements usually found in most any arduino application, yet it only is about 50 lines of python and some 80 lines of arduino code.
+
+It fits on an arduino micro and the sensor is cheap so you can have fun for about $ 10,-.
